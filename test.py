@@ -36,8 +36,7 @@ st.metric('Country',country)
 st.metric('Total Cases', yesterday_cases_df)
 st.metric('Total Deaths', yesterday_deaths_df)
 st.metric('Total Recovered', yesterday_recoveries_df)
-st.line
-_chart(daily_df[data_type])
+st.line_chart(daily_df[data_type])
 
 st.image("https://www.pexels.com/photo/landscape-nature-sky-man-6620743/")
 st.video('https://www.youtube.com/watch?v=w5HvxsOo00E')
